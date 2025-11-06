@@ -109,7 +109,7 @@ def main(season, drought_threshold, playerCheckLimit):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="NHL Goal Drought Checker")
     parser.add_argument(
-        "--season", type=int, default=2,
+        "--season", type=int, default=20252026,
         help="Season to evaluate from"
     )
     parser.add_argument(
