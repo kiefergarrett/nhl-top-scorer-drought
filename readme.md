@@ -47,7 +47,7 @@ python nhl_goal_drought.py --season <SEASON_ID> --dt <DROUGHT_THRESHOLD> --playe
 
 | Argument         | Type  | Default | Description |
 |-----------------|-------|---------|-------------|
-| `--season`       | int   | 2       | NHL season to evaluate (e.g., `20252026`) |
+| `--season`       | int   | 20252026| NHL season to evaluate (e.g., `20252026`) |
 | `--dt`           | int   | 2       | Number of consecutive games without a goal to count as a drought |
 | `--playerLimit`  | int   | 50      | Maximum number of top scorers to check |
 
