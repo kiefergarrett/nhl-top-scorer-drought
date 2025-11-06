@@ -1,0 +1,13 @@
+# Ignore results folder (JSON and CSV outputs)
+results/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment files
+.env
+venv/
+env/
